@@ -338,3 +338,202 @@ Possible future enhancements:
 # Conclusion
 
 The Mobile Price Range Prediction System demonstrates how machine learning can classify smartphones into different price categories using hardware and technical specifications. By analyzing key features such as RAM, battery power, processor performance, memory, and display quality, the system provides accurate price range predictions and valuable insights into smartphone pricing patterns.
+
+
+# 📱 Mobile Price Range Prediction System
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
+---
+
+## 🚀 Project Overview
+
+The **Mobile Price Range Prediction System** is a Machine Learning project that predicts the price category of a mobile phone based on its hardware and technical specifications.
+
+The system analyzes features such as:
+
+✅ Battery Power
+✅ RAM
+✅ Internal Memory
+✅ Processor Cores
+✅ Camera Quality
+✅ Display Resolution
+✅ Connectivity Features
+
+and predicts whether the smartphone belongs to:
+
+* 💰 Low Cost
+* 💰💰 Medium Cost
+* 💰💰💰 High Cost
+* 💰💰💰💰 Very High Cost
+
+---
+
+## 🎯 Problem Statement
+
+With thousands of smartphones available in the market, determining the appropriate price range based on hardware specifications can be challenging.
+
+This project aims to build a machine learning model capable of classifying smartphones into different price categories using their technical specifications.
+
+---
+
+## 📊 Dataset Information
+
+| Feature  | Description    |
+| -------- | -------------- |
+| Records  | 2000           |
+| Features | 21             |
+| Target   | Price Range    |
+| Type     | Classification |
+
+### Target Classes
+
+| Price Range | Category       |
+| ----------- | -------------- |
+| 0           | Low Cost       |
+| 1           | Medium Cost    |
+| 2           | High Cost      |
+| 3           | Very High Cost |
+
+---
+
+## ⚙️ How The System Works
+
+```text
+Mobile Specifications
+          ↓
+ Data Preprocessing
+          ↓
+ Exploratory Data Analysis
+          ↓
+ Feature Engineering
+          ↓
+ Model Training
+          ↓
+ Price Prediction
+          ↓
+ Final Result
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Programming Language
+
+* Python
+
+### Libraries
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+
+---
+
+## 📂 Project Structure
+
+```bash
+Mobile_Price_Prediction/
+│
+├── mobile.csv
+├── app.py
+├── model.pkl
+├── scaler.pkl
+├── notebook.ipynb
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🔍 Features
+
+✔ Mobile Price Prediction
+
+✔ Data Preprocessing
+
+✔ Exploratory Data Analysis (EDA)
+
+✔ Feature Engineering
+
+✔ Model Training
+
+✔ Model Evaluation
+
+✔ Classification Prediction
+
+✔ Interactive Prediction System
+
+---
+
+## 📈 Machine Learning Workflow
+
+### Step 1: Data Collection
+
+Load smartphone specification dataset.
+
+### Step 2: Data Cleaning
+
+Handle missing values and validate data.
+
+### Step 3: Exploratory Data Analysis
+
+Analyze relationships between features and price range.
+
+### Step 4: Model Training
+
+Train machine learning classification models.
+
+### Step 5: Evaluation
+
+Measure model performance using evaluation metrics.
+
+### Step 6: Prediction
+
+Predict the price category of new smartphones.
+
+---
+
+## 🎓 Learning Outcomes
+
+Through this project, I learned:
+
+* Data Cleaning
+* Feature Engineering
+* Exploratory Data Analysis
+* Classification Models
+* Model Evaluation
+* Machine Learning Workflow
+* Data Visualization
+* Python Development
+
+---
+
+## 🚀 Future Improvements
+
+* Streamlit Web Application
+* Mobile Recommendation System
+* Hyperparameter Tuning
+* Deep Learning Models
+* Cloud Deployment
+* Real-Time Prediction API
+
+---
+
+## 👨‍💻 Author
+
+Rishu Gurjar
+
+Aspiring Data Scientist | Machine Learning Enthusiast | Python Developer
+
+---
+
+## ⭐ If you like this project, don't forget to star the repository.
+
