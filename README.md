@@ -88,7 +88,7 @@ User Inputs Mobile Specifications
                 ▼
           Final Result
 
-# Mobile Price Range Prediction System
+# In detail this project
 
 # Why This Project?
 
