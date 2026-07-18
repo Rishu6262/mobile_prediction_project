@@ -20,6 +20,14 @@
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **Try the Application Here**
+
+https://mobilepredictionproject-xxfdne9wke5hzsjeztaw5k.streamlit.app/
+
+---
+
 # 📌 Project Overview
 
 The **Mobile Price Range Prediction System** is an end-to-end **Machine Learning Classification** project developed using **Python**, **Scikit-Learn**, **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, and **Streamlit**. The objective of this project is to accurately predict the **price category** of a smartphone based on its hardware specifications and technical characteristics.
@@ -54,14 +62,6 @@ This project serves as an excellent example of applying **Machine Learning**, **
 
 ---
 
-## 🌐 Live Demo
-
-🔗 **Try the Application Here**
-
-https://mobilepredictionproject-xxfdne9wke5hzsjeztaw5k.streamlit.app/
-
----
-
 ## 🎯 Problem Statement
 
 Smartphones come with a wide range of hardware specifications, making it difficult to estimate their price category accurately. Factors such as **RAM, battery power, processor, storage, camera quality, and display resolution** all influence a device's market value.
@@ -83,38 +83,39 @@ This project aims to develop a **Machine Learning classification model** that pr
 
 ---
 
-## ⚙️ How The System Works
+## ⚙️ How the System Works
 
 ```text
-User Inputs Mobile Specifications
-                │
-                ▼
-       Data Preprocessing
-                │
-                ▼
-       Trained ML Model
-                │
-                ▼
-      Price Category Prediction
-                │
-                ▼
-          Final Result
+User Enters Mobile Specifications
+              │
+              ▼
+      Data Preprocessing
+              │
+              ▼
+    Trained Machine Learning Model
+              │
+              ▼
+     Price Category Prediction
+              │
+              ▼
+         Display Final Result
+```
 
-# In detail this project
+---
 
-# Why This Project?
+## 💡 Why This Project?
 
-The smartphone industry offers thousands of devices with different specifications and price points. Determining the price category of a mobile phone based on its technical features can help manufacturers, retailers, and consumers better understand market positioning.
+With thousands of smartphones available in the market, estimating a device's price category based on its specifications can be challenging. This project uses **Machine Learning** to analyze smartphone features and accurately predict the appropriate price range, making the process faster and more reliable.
 
-This project was developed to:
+### 🎯 Project Objectives
 
-* Understand real-world machine learning workflows
-* Practice classification problems
-* Analyze relationships between smartphone features and pricing
-* Improve data preprocessing skills
-* Perform exploratory data analysis
-* Build predictive machine learning models
-* Create a practical portfolio project
+* Build a Machine Learning classification model
+* Predict smartphone price categories accurately
+* Analyze the impact of hardware specifications on pricing
+* Perform data preprocessing and exploratory data analysis (EDA)
+* Compare classification algorithms and evaluate their performance
+* Develop a practical end-to-end Machine Learning portfolio project
+
 
 ---
 
@@ -161,99 +162,88 @@ This project was developed to:
 
 ---
 
-# Project Objectives
+## 🎯 Project Objectives
 
-The main objectives of this project are:
+The primary objectives of this project are to:
 
-* Predict mobile phone price category
-* Analyze feature importance
-* Understand factors affecting smartphone pricing
-* Compare machine learning algorithms
-* Improve classification model performance
-* Generate insights from mobile specifications
-
----
-
-# How the System Works
-
-## Step 1: Data Collection
-
-The dataset containing mobile specifications is loaded into Python using Pandas.
+* 📱 Predict the price category of a smartphone based on its technical specifications.
+* 🤖 Develop an accurate Machine Learning classification model.
+* 📊 Analyze the relationship between mobile features and pricing.
+* 🔍 Identify the most important features influencing smartphone prices.
+* 🧹 Perform data preprocessing and exploratory data analysis (EDA).
+* ⚡ Compare different Machine Learning algorithms to achieve the best performance.
+* 📈 Evaluate the model using classification metrics such as Accuracy, Precision, Recall, and F1-Score.
+* 🌐 Deploy the trained model as an interactive Streamlit web application.
+* 💼 Build a real-world portfolio project demonstrating end-to-end Machine Learning skills.
 
 ---
 
-## Step 2: Data Preprocessing
+## ⚙️ How the System Works
 
-The dataset is cleaned and prepared for machine learning.
+The Mobile Price Range Prediction System follows a complete Machine Learning pipeline, from data preparation to price prediction.
 
-Tasks include:
+### **Step 1: Data Collection**
 
-* Checking missing values
-* Removing duplicates
-* Data validation
-* Feature selection
+The mobile price dataset containing various smartphone specifications is loaded into Python using **Pandas** for further analysis and processing.
 
 ---
 
-## Step 3: Exploratory Data Analysis (EDA)
+### **Step 2: Data Preprocessing**
 
-The dataset is analyzed to understand:
+The dataset is cleaned and prepared to ensure high-quality input for the machine learning model.
 
-* Distribution of mobile specifications
-* Relationship between RAM and price
-* Battery power trends
-* Screen resolution effects
-* Connectivity feature impact
+**Tasks Performed:**
 
----
-
-## Step 4: Feature Engineering
-
-Relevant features are selected and prepared for model training.
-
-Examples:
-
-* RAM
-* Battery Power
-* Internal Memory
-* Processor Cores
-* Camera Quality
+* Check for missing values
+* Remove duplicate records
+* Validate dataset integrity
+* Select relevant features
 
 ---
 
-## Step 5: Model Training
+### **Step 3: Exploratory Data Analysis (EDA)**
 
-Machine learning algorithms learn patterns between smartphone specifications and price categories.
+The dataset is explored to identify patterns, trends, and relationships between smartphone features and their price categories.
 
-The model identifies how different hardware features influence the final price range.
+**Analysis Includes:**
 
----
-
-## Step 6: Prediction
-
-The user enters mobile specifications.
-
-Example:
-
-Battery Power: 2000
-
-RAM: 4096
-
-Internal Memory: 64
-
-Processor Cores: 8
-
-Primary Camera: 48 MP
-
-The trained model predicts:
-
-Price Range = High Cost
+* Distribution of smartphone specifications
+* RAM vs. Price Range
+* Battery Power Analysis
+* Camera Feature Analysis
+* Display Resolution Analysis
+* Connectivity Feature Analysis
 
 ---
 
-## Step 7: Result Generation
+### **Step 4: Model Training**
 
-The system returns the predicted mobile price category based on the provided specifications.
+Multiple Machine Learning classification algorithms are trained using the processed dataset to learn the relationship between smartphone specifications and their corresponding price categories.
+
+---
+
+### **Step 5: Price Prediction**
+
+Users enter the smartphone specifications through the Streamlit web application. The trained model processes the input data and predicts the appropriate price category.
+
+**Example Input:**
+
+* 🔋 Battery Power: **2000 mAh**
+* 🧠 RAM: **4096 MB**
+* 💾 Internal Memory: **64 GB**
+* ⚙️ Processor Cores: **8**
+* 📷 Primary Camera: **48 MP**
+
+**Predicted Output:**
+
+* 💰 **High Cost**
+
+---
+
+### **Step 6: Result Generation**
+
+Finally, the system displays the predicted smartphone price category, enabling users to estimate the market value based on the provided hardware specifications.
+
 
 ---
 
