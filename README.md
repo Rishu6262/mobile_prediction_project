@@ -62,34 +62,6 @@ https://mobilepredictionproject-xxfdne9wke5hzsjeztaw5k.streamlit.app/
 
 ---
 
-## 🚀 Project Overview
-The Mobile Price Range Prediction System is a machine learning project developed to predict the price category of a mobile phone based on its hardware and technical specifications.
-
-The system analyzes various smartphone features such as battery power, RAM, processor cores, internal memory, camera quality, screen dimensions, connectivity options, and display resolution to determine the expected price range of a mobile device.
-
-This project demonstrates the complete machine learning workflow including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and prediction.
-
-The system analyzes hardware and software-related features such as:
-
-- 🔋 Battery Power
-- 🧠 RAM
-- 💾 Internal Memory
-- ⚙️ Processor Cores
-- 📷 Camera Quality
-- 📱 Screen Resolution
-- 🌐 Connectivity Features
-
-and classifies the smartphone into one of the following categories:
-
-| Price Range | Category |
-|------------|----------|
-| 0 | 💰 Low Cost |
-| 1 | 💰💰 Medium Cost |
-| 2 | 💰💰💰 High Cost |
-| 3 | 💰💰💰💰 Very High Cost |
-
----
-
 ## 🎯 Problem Statement
 
 Mobile phones come with hundreds of different specifications, making it difficult to estimate their market value accurately.
