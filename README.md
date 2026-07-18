@@ -6,12 +6,51 @@
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-orange)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-success)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20Application-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-### Predict Mobile Price Categories Using Machine Learning
+### 🚀 Machine Learning-Based Smartphone Price Category Prediction
+
+*A complete end-to-end Machine Learning project that predicts the price category of smartphones using their hardware specifications and technical features.*
 
 </div>
+
+---
+
+# 📌 Project Overview
+
+The **Mobile Price Range Prediction System** is an end-to-end **Machine Learning Classification** project developed using **Python**, **Scikit-Learn**, **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, and **Streamlit**. The objective of this project is to accurately predict the **price category** of a smartphone based on its hardware specifications and technical characteristics.
+
+The application analyzes a wide range of smartphone features—including **battery capacity, RAM, internal storage, processor cores, clock speed, camera quality, screen dimensions, display resolution, connectivity options, and other hardware specifications**—to determine the most appropriate price range. By learning patterns from historical mobile device data, the trained machine learning model can classify smartphones into predefined pricing categories with high accuracy.
+
+This project demonstrates the complete **Machine Learning lifecycle**, beginning with data collection and preprocessing, followed by exploratory data analysis (EDA), feature engineering, model training, performance evaluation, and deployment through an interactive **Streamlit web application**. It highlights how machine learning can assist in solving real-world business problems related to product pricing and market segmentation.
+
+The prediction system evaluates multiple smartphone attributes, including:
+
+* 🔋 Battery Power
+* 🧠 RAM Capacity
+* 💾 Internal Storage
+* ⚙️ Processor Cores & Clock Speed
+* 📷 Front & Rear Camera Quality
+* 📱 Screen Size & Display Resolution
+* 🌐 Connectivity Features (Wi-Fi, Bluetooth, 3G, 4G)
+* 📞 Talk Time & Battery Efficiency
+* 📲 Touch Screen Support
+* 📦 Device Weight & Mobile Depth
+
+Based on these specifications, the trained classification model predicts one of the following smartphone price categories:
+
+| Price Range | Category                |
+| ----------- | ----------------------- |
+| **0**       | 💰 Low Cost             |
+| **1**       | 💰💰 Medium Cost        |
+| **2**       | 💰💰💰 High Cost        |
+| **3**       | 💰💰💰💰 Very High Cost |
+
+This project serves as an excellent example of applying **Machine Learning**, **Data Analysis**, and **Predictive Analytics** to a real-world classification problem. It demonstrates practical skills in data preprocessing, feature engineering, model development, evaluation, deployment, and user interface design, making it a valuable portfolio project for aspiring **Data Scientists**, **Machine Learning Engineers**, and **Python Developers**.
 
 ---
 
