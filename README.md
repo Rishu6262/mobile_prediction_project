@@ -64,9 +64,10 @@ https://mobilepredictionproject-xxfdne9wke5hzsjeztaw5k.streamlit.app/
 
 ## 🎯 Problem Statement
 
-Mobile phones come with hundreds of different specifications, making it difficult to estimate their market value accurately.
+Smartphones come with a wide range of hardware specifications, making it difficult to estimate their price category accurately. Factors such as **RAM, battery power, processor, storage, camera quality, and display resolution** all influence a device's market value.
 
-This project aims to build a machine learning model capable of predicting the price category of a smartphone based on its technical features.
+This project aims to develop a **Machine Learning classification model** that predicts the price category of a smartphone based on its technical features. The system provides fast and accurate predictions, helping users understand how different specifications affect smartphone pricing.
+
 
 ---
 
